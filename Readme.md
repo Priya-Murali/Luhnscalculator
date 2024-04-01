@@ -10,7 +10,7 @@ The Luhn algorithm is designed to detect accidental errors, such as digit mistyp
 - Enter the digit sequence in the input field.
 - Click the “Validate” button to calculate the checksum.
 - The result will show whether the sequence is valid or not.
-- If the sequence is not valid, it will display the next check digit to make the sequence valid.
+- If the sequence is not valid, we can check the next check digit to make the sequence valid by clicking 'Check digit'.
 
 ## Example
   Suppose you have a digit sequence like “123456789”. 
