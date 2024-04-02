@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const responseJson = await response.json()
     
         if(response.status==200){
-            const checkDigit = responseJson?.checkDigit
                 const isValid = responseJson?.isValid
                 resultText.style.visibility = 'visible'
                 resultText.style.color = isValid ? 'green' : 'red'
